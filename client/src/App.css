@@ -1,0 +1,29 @@
+/* Adjust Sidebar */
+@media (max-width: 768px) {
+  .vh-100 {
+    height: auto !important;
+  }
+}
+
+/* Adjust Form Spacing */
+.form-label {
+  font-size: 14px;
+}
+
+@media (max-width: 480px) {
+  .form-control {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}
+
+/* Make Table Text Smaller for Mobile */
+@media (max-width: 768px) {
+  table {
+    font-size: 12px;
+  }
+}
